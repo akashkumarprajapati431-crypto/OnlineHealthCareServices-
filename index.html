@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthConnect | Online Healthcare Services</title>
+    <meta name="description" content="Helping communities access trusted online healthcare services.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+    <a href="#home" class="logo"><span class="logo-icon">♥</span><span>Health<span class="teal">Connect</span><small>Better Health • Brighter Communities</small></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#how-it-works">How It Works</a><a href="#contact">Contact</a>
+        <a href="#contact" class="login-btn">Login</a><a href="#contact" class="register-btn">Register</a>
+    </nav>
+</header>
+<main>
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="eyebrow">HEALTHCARE FOR EVERYONE</p>
+        <h1>Helping Communities <span>Access Online Healthcare Services</span></h1>
+        <p class="hero-description">Quality healthcare is everyone's right. Our platform connects communities with trusted healthcare professionals — anytime, anywhere.</p>
+        <div class="hero-buttons"><a href="#contact" class="btn primary">▣ Book a Consultation</a><a href="#about" class="btn secondary">Learn More</a></div>
+        <div class="trust-note">✓ Accessible &nbsp; ✓ Convenient &nbsp; ✓ Community-focused</div>
+    </div>
+    <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=1000&q=85" alt="Healthcare professional ready to help patients">
+        <div class="floating-card">
+            <div class="mini-feature"><span>🛡️</span><div><strong>Trusted Doctors</strong><small>Qualified professionals</small></div></div>
+            <div class="mini-feature"><span>◷</span><div><strong>Convenient Access</strong><small>Help from anywhere</small></div></div>
+            <div class="mini-feature"><span>♧</span><div><strong>For Everyone</strong><small>Stronger communities</small></div></div>
+        </div>
+    </div>
+</section>
+<section class="quick-features">
+    <article><span class="feature-icon blue">▣</span><div><h3>Online Consultations</h3><p>Connect with healthcare professionals remotely.</p></div></article>
+    <article><span class="feature-icon green">✚</span><div><h3>Digital Prescriptions</h3><p>Access prescriptions from your provider.</p></div></article>
+    <article><span class="feature-icon purple">▤</span><div><h3>Health Records</h3><p>Keep your health information organized.</p></div></article>
+    <article><span class="feature-icon pink">♧</span><div><h3>Community Support</h3><p>Help people discover healthcare resources.</p></div></article>
+</section>
+<section class="about section" id="about">
+    <div class="about-image"><img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=900&q=85" alt="Healthcare professional providing medical guidance"></div>
+    <div class="about-content"><span class="section-label">About Us</span><h2>Our Mission</h2><p>We are dedicated to making healthcare simpler and more accessible. Our goal is to help individuals and families discover healthcare resources, connect with qualified professionals, and learn how to manage their health online.</p><a href="#how-it-works" class="btn primary">Know More →</a></div>
+</section>
+<section class="services section" id="services">
+    <div class="section-heading"><span class="section-label">Our Services</span><h2>Healthcare Services for a Healthier Tomorrow</h2><p>Explore convenient online healthcare resources for your needs.</p></div>
+    <div class="service-grid">
+        <article class="service-card"><span class="service-icon blue">✚</span><h3>General Consultation</h3><p>Connect with healthcare professionals about common health concerns.</p></article>
+        <article class="service-card"><span class="service-icon green">✚</span><h3>Specialist Consultation</h3><p>Learn how to find specialist healthcare services.</p></article>
+        <article class="service-card"><span class="service-icon purple">✚</span><h3>E-Prescription</h3><p>Learn about digital prescriptions provided by clinicians.</p></article>
+        <article class="service-card"><span class="service-icon orange">⚗</span><h3>Lab Tests & Reports</h3><p>Find information about testing services and reports.</p></article>
+        <article class="service-card"><span class="service-icon pink">♡</span><h3>Mental Health Support</h3><p>Discover resources that support emotional well-being.</p></article>
+    </div>
+</section>
+<section class="how section" id="how-it-works">
+    <div class="section-heading"><span class="section-label">Simple & Convenient</span><h2>How It Works</h2><p>Three simple steps to explore online healthcare resources.</p></div>
+    <div class="steps">
+        <article class="step"><span>01</span><h3>Explore Services</h3><p>Find the healthcare information or service you need.</p></article>
+        <article class="step"><span>02</span><h3>Connect Online</h3><p>Choose an appropriate provider or healthcare resource.</p></article>
+        <article class="step"><span>03</span><h3>Get Guidance</h3><p>Follow professional guidance for your healthcare needs.</p></article>
+    </div>
+</section>
+<section class="contact section" id="contact">
+    <div class="contact-info"><span class="section-label">Contact Us</span><h2>Let's Make Healthcare More Accessible</h2><p>Have a question or suggestion? Send us a message.</p><p>✉ support@healthconnect.example</p><p>Note: This is a demonstration website. Replace the example email with your real contact details.</p></div>
+    <form id="contactForm" class="contact-form">
+        <label for="name">Your Name</label><input id="name" name="name" type="text" placeholder="Enter your name" required>
+        <label for="email">Email Address</label><input id="email" name="email" type="email" placeholder="Enter your email" required>
+        <label for="message">Your Message</label><textarea id="message" name="message" rows="4" placeholder="How can we help?" required></textarea>
+        <button class="btn primary" type="submit">Send Message →</button><p id="formMessage" role="status" aria-live="polite"></p>
+    </form>
+</section>
+</main>
+<footer class="footer">
+    <a href="#home" class="logo footer-logo"><span class="logo-icon">♥</span><span>Health<span class="teal">Connect</span><small>Better Health • Brighter Communities</small></span></a>
+    <div class="footer-links"><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#contact">Contact</a></div>
+    <p>© <span id="year"></span> HealthConnect. All rights reserved.</p>
+    <p class="disclaimer">This website provides general information and does not replace professional medical advice.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
